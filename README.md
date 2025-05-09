@@ -26,6 +26,8 @@ Se utilizan breakpoints efectivos para garantizar la accesibilidad visual y la a
 
 ## 🏁 Cómo visualizar el proyecto
 
+https://alejandrom21.github.io/web_project_homeland/
+
 ## Autor
 
 Desarrollado por **Alejandro Meléndez**  
