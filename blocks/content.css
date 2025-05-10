@@ -1,13 +1,15 @@
 .content {
   max-width: 830px;
-  max-height: 607px;
-  height: auto;
   margin: 92px auto 94px 148px;
+}
+
+.content__intro {
+  padding-right: 24px;
+  box-sizing: border-box;
 }
 
 .content__title {
   width: 100%;
-  /* min-height: 173.92px; */
   font-weight: 900;
   font-size: 54px;
   line-height: 1.1;
@@ -17,18 +19,15 @@
 
 .content__text {
   max-width: 738px;
-  /* max-height: 135.66px; */
   font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
   letter-spacing: 0;
   margin: 0 0 10px 0;
-  /* padding-bottom: 10px; */
 }
 
 .content__author {
   max-width: 732px;
-  /* max-height: 33.91px; */
   font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
@@ -39,7 +38,6 @@
 
 .content__description {
   max-width: 722px;
-  /* max-height: 181.54px; */
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;

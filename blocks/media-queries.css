@@ -31,7 +31,8 @@
 
   /* ==== content ===== */
   .content {
-    margin: 90px auto 88px 24px;
+    max-width: 720px;
+    margin: 90px 24px 88px 24px;
   }
   .content__title {
     max-width: 707px;
@@ -86,12 +87,11 @@
   /* ==== content ===== */
   .content {
     max-width: 100%;
-    max-height: 1033px;
+
     margin: 64px 16px 64px;
   }
   .content__title {
     max-width: 288px;
-
     font-size: 32px;
     line-height: 35px;
     margin: 0 0 40px 0;
