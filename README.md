@@ -7,6 +7,8 @@
 - Uso de **HTML semántico** para una estructura clara y accesible.
 - **CSS3** con diseño responsive (Media Queries)
 - Estructura basada en **BEM (Block Element Modifier)**
+  **Figma como brief**: interpretación de diseños desde prototipos interactivos
+- Implementación de estilos según **especificaciones visuales**: medidas, tipografías y espaciado fieles al diseño
 
 ## 📱 Diseño Responsive
 
@@ -27,6 +29,12 @@ Se utilizan breakpoints efectivos para garantizar la accesibilidad visual y la a
 ## 🏁 Cómo visualizar el proyecto
 
 https://alejandrom21.github.io/web_project_homeland/
+
+## 🔧 Posibles mejoras
+
+- Agregar animaciones sutiles con CSS
+- Optimizar imágenes para carga rápida
+- Implementar dark mode
 
 ## Autor
 
