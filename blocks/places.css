@@ -39,7 +39,7 @@
   line-height: 1.05;
   margin: 0;
   grid-area: place__title;
-  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .place__button {
@@ -76,7 +76,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
-  letter-spacing: 12%;
   text-transform: uppercase;
   margin: 0 0 8px;
   color: #aaaaaa;
