@@ -53,11 +53,11 @@
   .photo-grid {
     margin: 0 0 88px;
   }
-  /* ==== places ===== */
-  .places {
+  /* ==== place ===== */
+  .place {
     row-gap: 72px;
   }
-  .place {
+  .place_container {
     column-gap: 28px;
   }
   .place__image {
@@ -142,9 +142,16 @@
   .photo-grid {
     padding-bottom: 62px;
     margin: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, auto);
   }
 
-  /* ==== places ===== */
+  .photo-grid__title {
+    grid-column: 1;
+    text-align: center;
+  }
+
+  /* ==== place ===== */
 
   .place {
     grid-template-columns: 1fr;
@@ -155,7 +162,7 @@
       "place__website"
       "place__image"
       "place__paragraph"
-      "place__frame";
+      "place__button";
   }
   .place__image {
     max-width: 100%;
