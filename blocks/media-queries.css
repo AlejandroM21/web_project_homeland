@@ -31,20 +31,48 @@
 
   /* ==== content ===== */
   .content {
-    max-width: 720px;
-    margin: 90px 24px 88px 24px;
+    margin: 90px 24px 90px;
   }
   .content__title {
     max-width: 707px;
     font-size: 45px;
-    line-height: 49px;
+    line-height: 1.09;
     margin: 0 0 50px 0;
+  }
+  .content__intro {
+    margin-left: 0;
+    margin-bottom: 64px;
   }
 
   .content__text,
   .content__author,
   .content__description {
     max-width: 720px;
+  }
+  /* ==== photo-grid ===== */
+  .photo-grid {
+    margin: 0 0 88px;
+  }
+  /* ==== places ===== */
+  .places {
+    row-gap: 72px;
+  }
+  .place {
+    column-gap: 28px;
+  }
+  .place__image {
+    max-width: 340px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    line-height: 1.09;
+  }
+  .place__paragraph {
+    font-size: 16px;
+  }
+  .place__website {
+    margin-top: 0;
   }
 }
 
@@ -67,14 +95,13 @@
   .lead__title {
     max-width: 228px;
     font-size: 40px;
-    line-height: 44px;
-    margin: 0 auto;
+    line-height: 1.1;
   }
 
   .lead__description {
     max-width: 288px;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     padding-top: 16px;
   }
   .lead__image {
@@ -87,13 +114,17 @@
   /* ==== content ===== */
   .content {
     max-width: 100%;
-
-    margin: 64px 16px 64px;
+    margin: 64px 16px 109px;
   }
+  .content__intro {
+    margin-left: 0;
+    margin-bottom: 38px;
+  }
+
   .content__title {
     max-width: 288px;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09;
     margin: 0 0 40px 0;
   }
 
@@ -104,6 +135,48 @@
   }
   .content__text1 {
     font-size: 24px;
-    line-height: 30px;
+    line-height: 1.25;
+  }
+
+  /* ==== photo-grid ===== */
+  .photo-grid {
+    padding-bottom: 62px;
+    margin: 0;
+  }
+
+  /* ==== places ===== */
+
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 30px 0;
+    grid-template-areas:
+      "place__title"
+      "place__website"
+      "place__image"
+      "place__paragraph"
+      "place__frame";
+  }
+  .place__image {
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+  .place__paragraph {
+    font-size: 16px;
+  }
+  .place__website {
+    margin-top: 0;
+  }
+  .place__button {
+    max-width: 288px;
+    font-size: 13px;
+    line-height: 1;
+    padding: 15px 48px 16px 46px;
+    margin: 0;
   }
 }
